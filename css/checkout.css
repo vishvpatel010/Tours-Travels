@@ -1,0 +1,382 @@
+.billing_details_area .return_option {
+  background: #f9f9f9;
+  border: 1px solid #ebebeb;
+  padding-left: 28px;
+  margin-bottom: 50px;
+}
+
+.billing_details_area .return_option h4 {
+  color: #797979;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: inherit;
+  font-size: 18px;
+  line-height: normal;
+  padding: 24px 0px;
+  margin-bottom: 0px;
+}
+
+.billing_details_area .return_option h4 a {
+  color: #f195b2;
+  text-decoration: underline;
+}
+
+.billing_details_area .main_title h2 {
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+
+.billing_form .form-group {
+  margin-bottom: 30px;
+}
+
+.billing_form .form-group:last-child {
+  margin-bottom: 0px;
+}
+
+.billing_form .form-group input {
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 38px;
+  border: 1px solid #e2e2e2;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: #c6c6c6;
+  letter-spacing: .30px;
+  padding: 0px 20px;
+}
+
+.billing_form .form-group input.placeholder {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: #c6c6c6;
+  letter-spacing: .30px;
+}
+
+.billing_form .form-group input:-moz-placeholder {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: #c6c6c6;
+  letter-spacing: .30px;
+}
+
+.billing_form .form-group input::-moz-placeholder {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: #c6c6c6;
+  letter-spacing: .30px;
+}
+
+.billing_form .form-group input::-webkit-input-placeholder {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: #c6c6c6;
+  letter-spacing: .30px;
+}
+
+.billing_form .form-group input + input {
+  margin-top: 12px;
+}
+
+.billing_form .form-group input:focus {
+  border-color: #242424;
+}
+
+.billing_form .form-group label {
+  display: block;
+  font-size: 15px;
+  color: #797979;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.billing_form .form-group .product_select {
+  height: 38px;
+  border-radius: 0px;
+  width: 100%;
+  padding: 0px 20px;
+  margin: 0px;
+}
+
+.billing_form .form-group .product_select .current {
+  position: relative;
+  top: -3px;
+  color: #c6c6c6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.billing_form .form-group .product_select:after {
+  border: none;
+  content: "\f107";
+  font: normal normal normal 14px/1 FontAwesome;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  margin-top: -6px;
+  margin-right: 5px;
+}
+
+.billing_form .form-group .product_select.open:after {
+  content: "\f106";
+  margin-top: -7px;
+}
+
+.billing_form .form-group .product_select .list {
+  width: 100%;
+  background: #fff;
+  z-index: 10;
+}
+
+.billing_form .form-group textarea {
+  resize: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 100px;
+  border: 1px solid #e2e2e2;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #c6c6c6;
+  letter-spacing: .30px;
+  padding: 15px 20px;
+}
+
+.billing_form .form-group textarea.placeholder {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #c6c6c6;
+  letter-spacing: .30px;
+}
+
+.billing_form .form-group textarea:-moz-placeholder {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #c6c6c6;
+  letter-spacing: .30px;
+}
+
+.billing_form .form-group textarea::-moz-placeholder {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #c6c6c6;
+  letter-spacing: .30px;
+}
+
+.billing_form .form-group textarea::-webkit-input-placeholder {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #c6c6c6;
+  letter-spacing: .30px;
+}
+
+.billing_form .form-group textarea:focus {
+  border-color: #242424;
+}
+
+.billing_form .select_check2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.billing_form .select_check2 .creat_account label {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #3e606b;
+  top: -30px;
+}
+
+.order_box_price .payment_list {
+  background: #fdfdfd;
+  border: 1px solid #d9d9d9;
+  padding: 30px 30px 55px 30px;
+}
+
+.order_box_price .payment_list .price_single_cost h5 {
+  font-size: 15px;
+  color: #797979;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: inherit;
+  line-height: normal;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.order_box_price .payment_list .price_single_cost h5 span {
+  float: right;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.order_box_price .payment_list .price_single_cost h5 span.text_f {
+  text-transform: inherit;
+}
+
+.order_box_price .payment_list .price_single_cost h5:nth-child(4) {
+  text-transform: none;
+}
+
+.order_box_price .payment_list .price_single_cost h4 {
+  font-size: 15px;
+  color: #797979;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: inherit;
+  line-height: normal;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.order_box_price .payment_list .price_single_cost h4 span {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #242424;
+  float: right;
+}
+
+.order_box_price .payment_list .price_single_cost h3 {
+  font-size: 15px;
+  color: #797979;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: inherit;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  line-height: normal;
+  padding: 15px 0px 18px 0px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.order_box_price .payment_list .price_single_cost h3 span {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #242424;
+  float: right;
+}
+
+.order_box_price .payment_list .accordion_area .card {
+  border: none;
+}
+
+.order_box_price .payment_list .accordion_area .card .card-header {
+  padding: 0px;
+  border: none;
+  background: transparent;
+}
+
+.order_box_price .payment_list .accordion_area .card .card-header h5 {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.order_box_price .payment_list .accordion_area .card .card-header h5 .btn.btn-link {
+  padding: 0px;
+  border: none;
+  line-height: normal;
+  position: relative;
+  padding-left: 25px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #797979;
+  display: inline-block;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.order_box_price .payment_list .accordion_area .card .card-header h5 .btn.btn-link:before {
+  content: "";
+  height: 12px;
+  width: 12px;
+  border: 1px solid #919292;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top: 49%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.order_box_price .payment_list .accordion_area .card .card-header h5 .btn.btn-link:after {
+  content: "";
+  height: 8px;
+  width: 8px;
+  border: 1px solid #274760;
+  border-radius: 50%;
+  position: absolute;
+  background: #0e84c6;
+  left: 2px;
+  top: 49%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.order_box_price .payment_list .accordion_area .card .card-header h5 .btn.btn-link.collapsed:after {
+  background: #efefef;
+  border-color: #e1e2e2;
+}
+
+.order_box_price .payment_list .accordion_area .card .card-header h5 .btn.btn-link img {
+  margin-left: 20px;
+}
+
+.order_box_price .payment_list .accordion_area .card .card-header h5 a {
+  font-size: 14px;
+  color: #f195b2;
+  margin-left: 25px;
+}
+
+.order_box_price .payment_list .accordion_area .card .card-body {
+  border: none;
+  padding: 25px 20px 25px 25px;
+  background: #ececec;
+  border-radius: 5px;
+  position: relative;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  color: #8e8d8d;
+  letter-spacing: .45px;
+}
+
+.order_box_price .payment_list .accordion_area .card .card-body:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7px 10px 7px;
+  border-color: transparent transparent #ececec transparent;
+  position: absolute;
+  top: -10px;
+  left: 25px;
+}
+
+.order_box_price .payment_list .pest_btn {
+  margin-top: 30px;
+}
+
+.pest_btn {
+  background: #94c9d9;
+  color: #fff;
+  line-height: 36px;
+  display: inline-block;
+  padding: 0px 25px;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 3px;
+}
